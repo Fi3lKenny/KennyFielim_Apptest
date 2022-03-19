@@ -1,0 +1,39 @@
+.avatar {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.btn-delete {
+    width: 100%;
+    background-color: #D2042D !important;
+    border-color: #D2042D !important;
+}
+
+.btn-edit {
+    width: 100%;
+    background-color: #f6993f !important;
+    border-color: #f6993f !important;
+}
+
+.btn-view {
+    width: 100%;
+    background-color: #3490DC !important;
+    border-color: #3490DC !important;
+}
+
+.card-title {
+    font-size: 14px !important;
+}
+
+.card-subtitle {
+    font-size: 12px !important;
+}
+
+.custom-card {
+    text-align: center;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+}
+

@@ -1,0 +1,15 @@
+.btn-edit {
+    color: #fff !important;
+    font-weight: bold !important;
+    letter-spacing: 0.05em;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #f6993f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f6993f, #FF5F1F); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f6993f, #FF5F1F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-edit:hover,
+.btn-edit:focus {
+    color: #f4f4f4 !important;
+}
