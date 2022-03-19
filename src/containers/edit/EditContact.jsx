@@ -23,7 +23,7 @@ class EditContact extends React.Component {
 
   loadData = () => {
     const windowUrl = window.location.href.split('/');
-    const urlSegment = windowUrl[5];
+    const urlSegment = windowUrl[windowUrl.length - 1];
 
     return axios({
       method: "get",
